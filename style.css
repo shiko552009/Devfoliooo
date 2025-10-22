@@ -484,7 +484,7 @@ form .btn {
   font-size: 20px;
   border-radius: 10px;
   border: none;
-  background-color: #09c;
+  background-color: black;
   color: white;
   cursor: pointer;
   margin: auto;
@@ -554,3 +554,4 @@ footer p {
   font-size: 15PX;
 
 }
+
