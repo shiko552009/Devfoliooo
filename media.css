@@ -1,0 +1,42 @@
+@media(max-width: 900px)and (min-width: 600px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alpha h2{
+        font-size: 50px;
+    }
+    .alpha p::after{
+        font-size: 40px;
+    }
+    .info, .text{
+        width: 100%;
+    }
+    .data{
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons{
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alpha h2{
+        font-size: 40px;
+    }
+    .alpha p::after{
+        font-size: 30px;
+    }
+    .info, .text{
+        width: 100%;
+    }
+    .data{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
