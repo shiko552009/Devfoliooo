@@ -19,6 +19,9 @@
     .icons{
         flex-direction: column;
     }
+    #contact .container{
+        flex-direction: column;
+    }
 }
 @media(max-width: 600px){
     .container{
@@ -38,5 +41,10 @@
         flex-direction: column;
         align-items: center;
     }
-
+    #contact .container{
+        flex-direction: column;
+    }
+    .form, .contact-text{
+        width: 100%;
+    }
 }
