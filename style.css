@@ -459,7 +459,7 @@ nav ul li a:hover {
   border-radius: 25px;
   padding: 40px 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
   #contact .container .under-line {
@@ -552,4 +552,5 @@ footer {
 footer p {
   color: gray;
   font-size: 15PX;
+
 }
