@@ -1,0 +1,59 @@
+@media(max-width: 900px)and (min-width: 600px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alpha h2{
+        font-size: 50px;
+    }
+    .alpha p::after{
+        font-size: 40px;
+    }
+    .info, .text{
+        width: 100%;
+    }
+    .data{
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    #contact .container{
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alpha h2{
+        font-size: 30px;
+    }
+    .alpha p::after{
+        font-size: 20px;
+    }
+    #about .container{
+       padding: 20px;
+    }
+    .info, .text{
+        width: 100%;
+    }
+    .data{
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact .container{
+        flex-direction: column;
+    }
+    .form, .contact-text{
+        width: 100%;
+    }
+    nav ul{
+        gap: 10px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+}
